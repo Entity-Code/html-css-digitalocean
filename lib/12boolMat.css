@@ -310,4 +310,8 @@
 .line-height{
    line-height: 100px;
 }
+
+.relative{
+   position:relative;
+}
 /* Regole div-testo da assegnare */
