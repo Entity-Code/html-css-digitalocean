@@ -391,12 +391,24 @@ a{
    padding-bottom: 60px;
 }
 
-
 /* central img */
 
 /* BLOCCO 3 */
 
 /* BLOCCO 4 */
+.icon1-cont a{
+   color: #1678ff;
+   font-weight: bold;
+}
+.icon1-cont a:hover{
+   text-decoration: underline;
+}
+.icon1-cont a span{
+   padding-left: 5px;
+}
+.boxes{
+   margin: 30px 0;
+}
 /* BLOCCO 4 */
 
 /* BLOCCO 5 */
