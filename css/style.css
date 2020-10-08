@@ -400,7 +400,6 @@ a{
    background-color: #006aff;
    border-radius: 30px;
 }
-
 /* central img */
 
 /* BLOCCO 3 */
@@ -471,11 +470,49 @@ a{
    font-size: 10px;
    color: #00d7d2;
 }
-
-
 /* BLOCCO 5 */
 
+
 /* BLOCCO 6 */
+.central-container{
+   background-color: white;
+   width: 55%;
+   margin-top: 40px;
+   margin-bottom: 15px;
+}
+.central-container img{
+   width: 200px;
+   height: 28px;
+   margin-top: 70px;
+   margin-bottom: 20px;
+}
+
+.central-container p{
+   padding: 0 8px;
+   padding-bottom: 20px;
+}
+.central-container strong{
+   color: #031b4e;
+   display: block;
+}
+.central-container > span{
+   padding-top: 7px;
+   padding-bottom: 25px;
+   display: block;
+}
+
+.central-container a > p{
+   padding-bottom: 60px;
+}
+
+.central-container a:hover{
+   text-decoration: underline;
+}
+.central-container > a > p{
+   padding-right: 7px;
+   display: inline-block;
+}
+
 /* BLOCCO 6 */
 
 /* BLOCCO 7 */
@@ -557,6 +594,10 @@ a{
 
    .table-rows p{
       padding-left: 100px;
+   }
+
+   .central-container{
+      width: 65%;
    }
 
 }
@@ -642,6 +683,10 @@ a{
 
    .table-rows p{
       padding-left: 100px;
+   }
+
+   .central-container{
+      width: 75%;
    }
 }
 /* MEDIA QUERIES */
