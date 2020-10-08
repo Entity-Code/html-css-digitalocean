@@ -90,6 +90,8 @@ a{
 .cont-ul-1 a, .cont-ul-2 a{
    color: #5b6886;
    font-size: 14px;
+   padding: 1px;
+   border-radius: 4px;
 }
 
 .cont-ul-1 a:hover, .cont-ul-2 a:hover{
@@ -103,7 +105,6 @@ a{
    transition: all linear 0.2s;
    color: #fff;
    background-color: #00AFEF;
-
 }
 
 .cont-ul-1 li, .cont-ul-2 li {
@@ -176,6 +177,7 @@ a{
 }
 .create-acc:hover{
    opacity: 0.7;
+   transition: all 0.3s ease;
 }
 
 .google-cont{
@@ -194,6 +196,7 @@ a{
 }
 .google-cont:hover{
    opacity: 0.5;
+   transition: all 0.3s ease;
 }
 .google-cont input{
    background: none;
@@ -316,6 +319,7 @@ a{
    transform: scale(0.9);
    border: 1px solid #006aff;
    opacity: 0.7;
+   transition: all 0.3s ease;
 }
 /* left */
 
@@ -399,6 +403,7 @@ a{
 .balls:hover{
    background-color: #006aff;
    border-radius: 30px;
+   transition: all 0.3s ease;
 }
 /* central img */
 
@@ -512,11 +517,36 @@ a{
    padding-right: 7px;
    display: inline-block;
 }
-
 /* BLOCCO 6 */
 
+
+
 /* BLOCCO 7 */
+.b7 h1{
+   padding-top: 60px;
+   padding-bottom: 20px;
+}
+
+.b7 input{
+   cursor: pointer;
+   font-size: 20px;
+   color: #0069ff;
+   margin-bottom: 60px;
+   margin-top: 10px;
+   padding: 13px 10px;
+   border: none;
+   border-radius: 10px;
+   background-color: white;
+}
+.b7 input:hover{
+   background: rgba(225,225,225,0.9);
+   transition: all 0.3s ease;
+}
+
 /* BLOCCO 7 */
+
+
+
 
 /* BLOCCO 8 */
 /* BLOCCO 8 */
