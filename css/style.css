@@ -90,9 +90,6 @@ a{
    font-size: 14px;
    padding: 1px;
    border-radius: 4px;
-}
-
-.cont-ul-1 a:hover, .cont-ul-2 a:hover{
    -ms-transform: scale(1.3,1.3);
    -moz-transform: scale(1.3,1.3);
    -webkit-transform: scale(1.3,1.3);
@@ -101,6 +98,9 @@ a{
    -webkit-transition: all linear 0.2s;
    -moz-transition: all linear 0.2s;
    transition: all linear 0.2s;
+}
+
+.cont-ul-1 a:hover, .cont-ul-2 a:hover{
    color: #fff;
    background-color: #00AFEF;
 }
@@ -172,10 +172,10 @@ a{
    display: block;
    margin: 10px auto;
    border-radius: 5px;
+   transition: all 0.3s ease;
 }
 .create-acc:hover{
    opacity: 0.7;
-   transition: all 0.3s ease;
 }
 
 .google-cont{
@@ -191,11 +191,11 @@ a{
    background-repeat: no-repeat;
    opacity: 0.8;
    cursor: pointer;
+   transition: all 0.3s ease;
 }
 
 .google-cont:hover{
    opacity: 0.5;
-   transition: all 0.3s ease;
 }
 
 .google-cont input{
@@ -256,9 +256,9 @@ a{
 }
 .m-log{
    margin: 30px 0;
+   transition: all linear 0.2s;
 }
 .m-log:hover{
-   transition: all linear 0.2s;
    outline: 10px solid #0F659C;
 }
 
@@ -305,13 +305,13 @@ a{
    padding: 15px 10px;
    margin-right: 10px;
    color: #5b6987;
+   transition: all 0.3s ease;
 }
 
 .cont-left a:hover{
    transform: scale(0.9);
    border: 1px solid #006aff;
    opacity: 0.7;
-   transition: all 0.3s ease;
 }
 /* left */
 
@@ -394,12 +394,12 @@ a{
    font-size: 13px;
    color: #006aff;
    margin-bottom: 60px;
+   transition: all 0.3s ease;
 }
 
 .balls:hover{
    background-color: #006aff;
    border-radius: 30px;
-   transition: all 0.3s ease;
 }
 /* central img */
 /* BLOCCO 3 */
@@ -825,7 +825,9 @@ footer a span:hover{
    .table-rows p{
       padding-left: 7px;
    }
-
+   .container-right{
+      width: 95%;
+   }
 }
 
 @media screen and (max-width: 501px){
